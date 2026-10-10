@@ -1,24 +1,24 @@
-# Privacy Policy (Template)
+# Privacy Policy Template
 
-This is a template privacy policy. You MUST edit it to correctly describe how your app collects and uses data before publishing.
+This privacy policy template is for an app that handles images locally on the device. Update it before publishing.
 
-Privacy Policy for ImageCompressor
+## Summary
+This app processes images on the device. We do not upload files to our servers.
 
-1. Information Collection
-We may collect anonymous analytics data for the purpose of improving the app. We use Google AdMob for advertising which may collect device identifiers and other data as described in AdMob's policy.
+## Data collected
+- Anonymous usage analytics if enabled by your analytics provider
+- Ad-related device identifiers from Google AdMob as required by AdMob's policies
+- Purchase status information when using Google Play Billing
 
-2. Ads
-This app displays ads served by Google AdMob. Ads may use device identifiers and may show personalized ads where permitted.
+## Third-party services
+- Google AdMob
+- Google Firebase Analytics (optional)
+- Google Play Billing
 
-3. Purchases
-This app uses Google Play Billing to offer an in-app "Remove Ads" purchase.
+## Contact
+Your Company Name
+Email: your@email.com
+Website: https://yourwebsite.com
 
-4. Data Storage
-Images you select are processed locally on your device. We do NOT upload images to our servers.
-
-5. Contact
-Provide contact email here.
-
----
-
-Host this file somewhere publicly accessible (GitHub Pages or your website) and put the URL into Play Console when submitting the app.
+## Policy updates
+We may update this policy in the future. The latest version will be linked from the app and from the app listing page.

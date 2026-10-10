@@ -1,16 +1,25 @@
 # Play Store Listing Draft
 
-Title: Image Compressor — Fast & Batch
-Short description: Quickly compress photos in batch, keep quality, share easily. Remove ads with one-time purchase.
+Title: Image Compressor - Fast & Simple
+
+Short description:
+Compress photos quickly, save space, and share faster.
+
 Full description:
-Image Compressor lets you quickly compress and save photos with minimal quality loss. Batch-select multiple images, compress, and save to your device. Perfect for freeing storage and sharing more quickly.
+Image Compressor helps you reduce the size of JPG photos in seconds. Choose multiple images, compress them, and save them to your gallery with one tap.
 
-Key features:
-- Batch compression
-- Save to gallery
-- Share directly to apps
-- Small size and fast processing
-- Optional one-time purchase to remove ads
+Features:
+- Batch image compression
+- Save directly to the gallery
+- Keep your images easy to share
+- Remove ads with a one-time purchase
+- Works fast on most Android devices
 
-Suggested screenshots: Show UI selecting photos, compression progress, settings, before/after size comparison.
+Suggested screenshot set:
+1. Home screen with choose image button
+2. Gallery selection screen
+3. Compression complete message
+4. In-app purchase screen or ad-free experience
+5. Settings / app store listing screenshot
 
+Before launch, create final assets and upload them to Play Console.

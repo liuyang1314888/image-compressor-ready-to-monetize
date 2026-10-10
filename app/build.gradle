@@ -2,6 +2,7 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
 android {
+    namespace 'com.imagecompressor.app'
     compileSdk 33
 
     defaultConfig {
@@ -10,6 +11,7 @@ android {
         targetSdk 33
         versionCode 1
         versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
     buildTypes {
@@ -18,7 +20,14 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-    namespace 'com.imagecompressor.app'
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    kotlinOptions {
+        jvmTarget = '17'
+    }
 }
 
 dependencies {
@@ -26,13 +35,7 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.9.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
-
-    // AdMob
-    implementation 'com.google.android.gms:play-services-ads:22.2.0'
-
-    // Billing
-    implementation 'com.android.billingclient:billing-ktx:6.0.1'
-
-    // AndroidX Activity / Core
     implementation 'androidx.activity:activity-ktx:1.7.2'
+    implementation 'com.google.android.gms:play-services-ads:22.2.0'
+    implementation 'com.android.billingclient:billing-ktx:6.0.1'
 }
