@@ -1,0 +1,38 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+
+android {
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.imagecompressor.app"
+        minSdk 21
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    namespace 'com.imagecompressor.app'
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.8.0"
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.9.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+
+    // AdMob
+    implementation 'com.google.android.gms:play-services-ads:22.2.0'
+
+    // Billing
+    implementation 'com.android.billingclient:billing-ktx:6.0.1'
+
+    // AndroidX Activity / Core
+    implementation 'androidx.activity:activity-ktx:1.7.2'
+}
